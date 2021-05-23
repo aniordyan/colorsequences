@@ -57,7 +57,7 @@ function checkAnswer(currentLevel) {
       setTimeout(function () { $("body").removeClass("game-over")
 
       }, 200);
-      $("h1").text("Սխալվեցիր: Վերսկսելու համար սեղմել ցանկացած կոջակ");
+      $("h1").text("Սխալվեցիր: Վերսկսելու համար սեղմել ցանկացած կոճակ");
       startOver();
   }
 }
